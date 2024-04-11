@@ -3,6 +3,7 @@
 FAT:    SUB     ONE
         JMPZ    FIM
         STORE   AUX
+COP:    COPY    ONE  AUX; Essa linha foi um extra para testar se a traducao dava certo com copy
         MULT    N
         STORE   N
         LOAD    N
